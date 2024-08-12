@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(71, 46, 14);
+    height: 100vh;
+    color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+}
+
+a{
+    color: antiquewhite;
+}
+
+a:visited {
+    color: aqua;
+}

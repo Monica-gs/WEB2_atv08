@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="cursos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cursos</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Listagem</h2>
+        <button id="btNovo">Novo</button>
+        <table border="1">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Curso</th>
+                        <th>Reitor</th>
+                        <th>Disciplina</th>
+                        <th>Tipo</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+    <form action="">
+        <input type="hidden" name="id" id="id"><br>
+        <label for="nomeC">Nome</label><br>
+        <input type="text" name="nomeC" id="nomeC"><br>
+        <label for="reitorC">Reitor do Curso</label><br>
+        <input type="text" name="reitorC" id="reitorC"><br>
+        <label for="DisciplinaId">Disciplina</label><br>
+        <select name="DisciplinaId" id="DisciplinaId"></select><br>
+        <label for="tipo">Tipo</label><br>
+        <input type="text" name="tipo" id="tipo"><br>
+        <button>Salvar</button>
+    </form>
+    </div>
+    <footer>
+        <p>&copy Monica</p>
+    </footer>
+</body>
+<script type="module" src="cursos.js"></script>
+</html>

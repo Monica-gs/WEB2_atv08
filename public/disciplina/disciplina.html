@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de disciplinas</title>
+    <link rel="stylesheet" href="disciplina.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de disciplinas</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Listagem</h2>
+        <button id="btNovo">Novo</button>
+        <table border="1">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>NOME</th>
+                        <th>PROFESSOR</th>
+                        <th>CARGA HORARIA</th>
+                        <th>REQUISITOS</th>
+                        <th>SALA</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+        <form action="">
+            <input type="hidden" name="id" id="id"><br>
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome"><br>
+            <label for="professor">Professor</label><br>
+            <input type="text" name="professor" id="professor"><br>
+            <label for="cargaH">Carga Horaria</label><br>
+            <input type="text" name="cargaH" id="cargaH"><br>
+            <label for="requisito">Requisito</label><br>
+            <input type="text" name="requisito" id="requisito"><br>
+            <label for="sala">Sala</label><br>
+            <input type="text" name="sala" id="sala"><br>
+            <button>Salvar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy Monica</p>
+    </footer>
+</body>
+<script type="module" src="disciplina.js"></script>
+</html>
